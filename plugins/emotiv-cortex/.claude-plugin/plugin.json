@@ -1,0 +1,7 @@
+{
+  "name": "emotiv-cortex",
+  "version": "0.1.0",
+  "description": "Teaches AI coding agents to build apps for EMOTIV headsets through the Cortex API: connection flow, streams, training, licence limits, errors and verified device facts.",
+  "author": { "name": "EMOTIV" },
+  "keywords": ["emotiv", "cortex", "eeg", "bci", "brain-computer-interface"]
+}

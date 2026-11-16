@@ -1,0 +1,11 @@
+{
+  "name": "emotiv",
+  "owner": { "name": "EMOTIV" },
+  "plugins": [
+    {
+      "name": "emotiv-cortex",
+      "source": "./plugins/emotiv-cortex",
+      "description": "Build apps for EMOTIV headsets through the Cortex API."
+    }
+  ]
+}
