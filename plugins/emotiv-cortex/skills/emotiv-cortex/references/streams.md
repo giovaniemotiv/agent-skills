@@ -61,8 +61,9 @@ capture a neutral pose first. ACC/GYRO/MAG have no documented unit.
 Columns like `attention.isActive`, `attention`, `eng.isActive`, `eng`, … (MN8:
 `attention`, `cognitiveStress`). Values 0–1; null or inactive on poor signal. On the free
 licence **one value per 10 seconds**. Interpolating between samples invents data: draw steps.
-Mobile builds of Cortex have reported different names (`attentionCnnLstm`, `stressy`,
-`loady`), so map whatever columns arrive instead of expecting a fixed set.
+The Cortex Library for Mobile sends a different set: on an EPOC X it also sent `boredom`,
+`visualAttention` and `cognitiveStress` next to `str` (mobile.md). So map whatever columns
+arrive instead of expecting a fixed set, and keep a column whose value is `null`: show "—".
 
 ## eeg: raw EEG
 
